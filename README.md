@@ -1,7 +1,7 @@
 # goit-de-hw-05
 The repository for the 5th GoItNeo Data Engineering homework
 
-# Task Description:
+## Task Description:
 
 1. Creating Topics in Kafka:
 
@@ -16,8 +16,8 @@ _humidity_alerts_ — to store notifications about exceeding or falling below th
 Write a Python script that simulates a sensor and periodically sends randomly generated data (temperature and humidity) to the building_sensors topic.
 
 The data should include the sensor ID, timestamp, and corresponding readings.
-One run of the script should correspond to a single sensor. In order to simulate multiple sensors, the script needs to be executed multiple times.
-The sensor ID can be a random number but should remain constant for each script run. When the script is run again, the sensor ID can change.
+One run of the script should correspond to a single sensor. To simulate multiple sensors, the script needs to be executed numerous times.
+The sensor ID can be a random number but should remain constant for each script run. When the script is rerun, the sensor ID can change.
 
 Temperature should be a random value between 25 and 45.
 Humidity should be a random value between 15 and 85.
@@ -28,13 +28,13 @@ Write a Python script that subscribes to the building_sensors topic, reads messa
 
 If the temperature exceeds 40°C, generate a notification and send it to the temperature_alerts topic.
 If the humidity exceeds 80% or falls below 20%, generate a notification and send it to the humidity_alerts topic.
-The notifications should contain the sensor ID, the readings, timestamp, and a message about exceeding the threshold.
+The notifications should contain the sensor ID, the readings, the timestamp, and a message about exceeding the threshold.
 
 4. Final Data:
 
 Write a Python script that subscribes to the temperature_alerts and humidity_alerts topics, reads the notifications, and displays the messages on the screen.
 
-# Task Results:
+## Task Results:
 
 **Task 1.** Topics created successfully: tet_building_sensors, tet_temperature_alerts, tet_humidity_alerts
 
