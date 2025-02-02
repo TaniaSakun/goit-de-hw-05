@@ -37,8 +37,11 @@ Write a Python script that subscribes to the temperature_alerts and humidity_ale
 # Task Results:
 
 **Task 1.** Topics created successfully: tet_building_sensors, tet_temperature_alerts, tet_humidity_alerts
+
 **Task 2.** Message 0-19 sent successfully to topic tet_building_sensors.
+
 **Task 3-5.**
+
 Received message: {'sensor_id': 10, 'time': '2025-02-02 08:39:10', 'temperature': 36.07, 'humidity': 81.24}
 ✅ Temperature 36.07 is within normal range, no alert sent.
 🚨 Critical humidity level!!! Humidity: 81.24
